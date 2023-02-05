@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JIT">
+      <UniqueIdentifier>{3e9ce766-5a5d-4f72-959b-0180971ffc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AccessViolation">
+      <UniqueIdentifier>{836859af-8846-472a-bf62-805bbfc26c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighCpu">
+      <UniqueIdentifier>{f7371f0f-ae8d-41e5-b37e-3d665b3528d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeapCorruption">
+      <UniqueIdentifier>{782911ee-94b7-421e-bc43-d8ca8331811d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StackOverrun">
+      <UniqueIdentifier>{b0ff781d-8b77-4599-88de-dafcbe2b2fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HandleLeak">
+      <UniqueIdentifier>{8e961191-1841-4113-a23a-146b15baf2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeadLock">
+      <UniqueIdentifier>{e312aaa8-8574-40ca-95a4-401c01239b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryLeak">
+      <UniqueIdentifier>{a0e7a4d8-1661-48c6-a780-d99355026979}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JIT.h">
+      <Filter>JIT</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessViolation.h">
+      <Filter>AccessViolation</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCpu.h">
+      <Filter>HighCpu</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapCorruption.h">
+      <Filter>HeapCorruption</Filter>
+    </ClInclude>
+    <ClInclude Include="StackOverrun.h">
+      <Filter>StackOverrun</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleLeak.h">
+      <Filter>HandleLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadLock.h">
+      <Filter>DeadLock</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLeak.h">
+      <Filter>MemoryLeak</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JIT.cpp">
+      <Filter>JIT</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessViolation.cpp">
+      <Filter>AccessViolation</Filter>
+    </ClCompile>
+    <ClCompile Include="HighCpu.cpp">
+      <Filter>HighCpu</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapCorruption.cpp">
+      <Filter>HeapCorruption</Filter>
+    </ClCompile>
+    <ClCompile Include="StackOverrun.cpp">
+      <Filter>StackOverrun</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleLeak.cpp">
+      <Filter>HandleLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadLock.cpp">
+      <Filter>DeadLock</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryLeak.cpp">
+      <Filter>MemoryLeak</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WindowDemo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
